@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="AeroplaneMine" size="1.000000 0.907500" />
+    <ImageTarget name="ShipMine" size="1.000000 1.040989" />
+    <ImageTarget name="HouseMine" size="1.000000 1.174743" />
+    <ImageTarget name="CarMine" size="1.000000 1.200300" />
+    <ImageTarget name="BookCoverMine" size="1.000000 1.245136" />
+    <ImageTarget name="MySUN" size="1.000000 0.970625" />
+  </Tracking>
+</QCARConfig>

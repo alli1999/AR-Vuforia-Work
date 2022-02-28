@@ -1,0 +1,699 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AboutManager::LoadNextScene()
+extern void AboutManager_LoadNextScene_m3AFEE434256A940034BB3EDC550925D6937A6B02 (void);
+// 0x00000002 System.Void AboutManager::Start()
+extern void AboutManager_Start_m0CE8345171913607CCE274649B393F0F0EDB02D9 (void);
+// 0x00000003 System.Void AboutManager::Update()
+extern void AboutManager_Update_mA8577C26157C76247D7AE4F1146C8E2D7C678118 (void);
+// 0x00000004 System.Void AboutManager::OnDestroy()
+extern void AboutManager_OnDestroy_m9A4C8829E35A7B48E41610E21D0E03743D510B5E (void);
+// 0x00000005 System.Void AboutManager::OnVuforiaInitialized(Vuforia.VuforiaInitError)
+extern void AboutManager_OnVuforiaInitialized_m6B36448654786847D68373B251D771D5B545855D (void);
+// 0x00000006 System.Void AboutManager::.ctor()
+extern void AboutManager__ctor_m89C20A7B0D6914FCD9F41C1DFB48C0E2A7755BEE (void);
+// 0x00000007 System.Void AsyncSceneLoader::Start()
+extern void AsyncSceneLoader_Start_m3A4CA33D6A06570F89C0F7DF0409C95743029225 (void);
+// 0x00000008 System.Collections.IEnumerator AsyncSceneLoader::LoadNextSceneAfter(System.Single)
+extern void AsyncSceneLoader_LoadNextSceneAfter_m725C0EF2F618C5413B65ED47FA54C37B64D4EBD1 (void);
+// 0x00000009 System.Void AsyncSceneLoader::.ctor()
+extern void AsyncSceneLoader__ctor_m7352D3EAE6D573C6EAD04A8C7E262EB07ECD8FEF (void);
+// 0x0000000A System.String LoadingScreen::get_SceneToLoad()
+extern void LoadingScreen_get_SceneToLoad_m8F9EA3978A736E5B3B1107B00484E847BA4267DF (void);
+// 0x0000000B System.Void LoadingScreen::set_SceneToLoad(System.String)
+extern void LoadingScreen_set_SceneToLoad_m589E8A3C9056D5C89527BEA4743C91B760B5415C (void);
+// 0x0000000C System.Void LoadingScreen::Run()
+extern void LoadingScreen_Run_mD8FCB65E51B3D338F77DF0065C87568EF824D602 (void);
+// 0x0000000D System.Void LoadingScreen::Start()
+extern void LoadingScreen_Start_m36197075FC3CFC340FD91DE6A5105081AF0212BE (void);
+// 0x0000000E System.Void LoadingScreen::Update()
+extern void LoadingScreen_Update_m172BF0BD3CFCAB736A897D497EC320704E7793CF (void);
+// 0x0000000F System.Collections.IEnumerator LoadingScreen::LoadNextSceneAsync()
+extern void LoadingScreen_LoadNextSceneAsync_m8C11994153C10139BBB2EE374D0327118E9CCB64 (void);
+// 0x00000010 System.Void LoadingScreen::.ctor()
+extern void LoadingScreen__ctor_m7508E820FF2E8323381F28534F3AB69EDF0F44B0 (void);
+// 0x00000011 System.Void NavigationHandler::Update()
+extern void NavigationHandler_Update_mA0CA1128E2B41B7ECA7DF4A93B1F3EF54E96F52E (void);
+// 0x00000012 System.Void NavigationHandler::HandleBackButtonPressed()
+extern void NavigationHandler_HandleBackButtonPressed_m9AA8FEEAA7DA94F9D8ABAA739DC9B18846631F60 (void);
+// 0x00000013 System.Void NavigationHandler::LoadScene(System.String)
+extern void NavigationHandler_LoadScene_m9CD595A6B4DE60AB3BD25D1049AEE6227CF775A1 (void);
+// 0x00000014 System.Void NavigationHandler::.ctor()
+extern void NavigationHandler__ctor_m7A44808CAFF041EEB019F831C0844E54768BF3C6 (void);
+// 0x00000015 System.Boolean SamplesMainMenu::get_IsAboutScreenVisible()
+extern void SamplesMainMenu_get_IsAboutScreenVisible_mD149F7906BE6F0B9231120CC1B672FFD7B2598EC (void);
+// 0x00000016 System.Void SamplesMainMenu::Start()
+extern void SamplesMainMenu_Start_mE9D7634F9299CC344FE1C2B8619AF84AE18659C2 (void);
+// 0x00000017 System.Void SamplesMainMenu::Update()
+extern void SamplesMainMenu_Update_m5BC309BDAB6E46475239025002F03D86EB9E9C27 (void);
+// 0x00000018 System.Void SamplesMainMenu::OnDestroy()
+extern void SamplesMainMenu_OnDestroy_m9F77953DFD43BE53807FE7B41AE08BC0B37E0B03 (void);
+// 0x00000019 System.Void SamplesMainMenu::OnVuforiaInitialized(Vuforia.VuforiaInitError)
+extern void SamplesMainMenu_OnVuforiaInitialized_mBA5E6E8CEC2286ECAD9741C37A401D2A65BEA98A (void);
+// 0x0000001A System.Void SamplesMainMenu::OnStartAR()
+extern void SamplesMainMenu_OnStartAR_mFFE13DD4716D3CC73A91F4876BD27E18DC263EEB (void);
+// 0x0000001B System.Void SamplesMainMenu::OnBackButton()
+extern void SamplesMainMenu_OnBackButton_mE9D7D14413A02948106B33B3317D5B56F5F6A3EC (void);
+// 0x0000001C System.Void SamplesMainMenu::OnMenuItemSelected(System.String)
+extern void SamplesMainMenu_OnMenuItemSelected_mE083BD5DB958B13671F49AEB45EB5A2F8C4EAAA4 (void);
+// 0x0000001D System.Void SamplesMainMenu::ShowAboutScreen(System.Boolean)
+extern void SamplesMainMenu_ShowAboutScreen_m392D94CA04234832DAB3D26510BE1DD251E548C2 (void);
+// 0x0000001E System.Void SamplesMainMenu::QuitApp()
+extern void SamplesMainMenu_QuitApp_m719F90812467DCECA411008EA18E4FF7168D4709 (void);
+// 0x0000001F System.Void SamplesMainMenu::.ctor()
+extern void SamplesMainMenu__ctor_mD92D235D42A72520020EBE2CA83F9B3549F7545E (void);
+// 0x00000020 System.Void AboutScreenInfo::.ctor()
+extern void AboutScreenInfo__ctor_m758DF6EA272C526C8F82F5F24C8F5F3D8244A5E6 (void);
+// 0x00000021 System.String AboutScreenInfo::GetTitle(System.String)
+extern void AboutScreenInfo_GetTitle_m6FF65DEA0D1E218287D76BE0FE273327CF0D57D6 (void);
+// 0x00000022 System.String AboutScreenInfo::GetDescription(System.String)
+extern void AboutScreenInfo_GetDescription_mBAEFC525FD2761F386A7271054431954B8F614CC (void);
+// 0x00000023 System.String AboutScreenInfo::GetValueFromDictionary(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String)
+extern void AboutScreenInfo_GetValueFromDictionary_m4042F17AACB626316E09308960C897235F45FA5F (void);
+// 0x00000024 System.Boolean MenuOptions::get_IsDisplayed()
+extern void MenuOptions_get_IsDisplayed_mD77BFBB6AD1F26922753FD6B58E1A218A0C61D8B (void);
+// 0x00000025 System.Void MenuOptions::set_IsDisplayed(System.Boolean)
+extern void MenuOptions_set_IsDisplayed_m01934F23A9295FC2B3CCD1D2633EEE1E80277C72 (void);
+// 0x00000026 System.Void MenuOptions::Start()
+extern void MenuOptions_Start_m7149F7E564D8E9BFC68E6DF380C748C9D75D5717 (void);
+// 0x00000027 System.Void MenuOptions::OnDestroy()
+extern void MenuOptions_OnDestroy_m7472DB9C4D404E554CF5500CD72E3E37387E0147 (void);
+// 0x00000028 System.Void MenuOptions::OnVuforiaInitialized(Vuforia.VuforiaInitError)
+extern void MenuOptions_OnVuforiaInitialized_m1814E7D94B1EC93A3B151F88E0B26218AFE8ACC6 (void);
+// 0x00000029 System.Void MenuOptions::OnVuforiaStarted()
+extern void MenuOptions_OnVuforiaStarted_m5ABCACE8D5C40711C3BF5625D036E7089D279E49 (void);
+// 0x0000002A System.Void MenuOptions::UpdateUI()
+extern void MenuOptions_UpdateUI_m24EE8C424D95DFA6CDB1DF06C7B88F94F835CA7F (void);
+// 0x0000002B System.Void MenuOptions::ShowOptionsMenu(System.Boolean)
+extern void MenuOptions_ShowOptionsMenu_m20224D1F3FF4A631961DB330404838AD619E1FA8 (void);
+// 0x0000002C System.Void MenuOptions::.ctor()
+extern void MenuOptions__ctor_m9ADE5DE99BE0435503D87121CCB5BCF40FD8EF27 (void);
+// 0x0000002D System.Void MessageBox::DisplayMessageBox(System.String,System.String,System.Boolean,System.Action)
+extern void MessageBox_DisplayMessageBox_m87B74259E7B6926940E40A0FB9DFEE21339B0889 (void);
+// 0x0000002E System.Void MessageBox::MessageBoxButton()
+extern void MessageBox_MessageBoxButton_m5000E915B8D1A1E212257F3EB1733CDFDDF4917A (void);
+// 0x0000002F System.Void MessageBox::Setup(System.String,System.String,System.Boolean,System.Action)
+extern void MessageBox_Setup_m0CE5AB2D3664E091DF617C7A0691B664CE3E4A16 (void);
+// 0x00000030 System.Void MessageBox::.ctor()
+extern void MessageBox__ctor_m6A82B5AFD9C98F224D805A02C0D452AD04349EC7 (void);
+// 0x00000031 System.Boolean SafeAreaManager::get_ColorsChanged()
+extern void SafeAreaManager_get_ColorsChanged_mC3CD1F467E7CD7630E29EBB0EA70407A3FAEE2CC (void);
+// 0x00000032 System.Void SafeAreaManager::Awake()
+extern void SafeAreaManager_Awake_mF983FDBD4792813948017AE34AEC0FAA21A71B43 (void);
+// 0x00000033 System.Void SafeAreaManager::SetAreaRectTransforms()
+extern void SafeAreaManager_SetAreaRectTransforms_m7F119B689A018824C92E5AE3D88D9208D387BA08 (void);
+// 0x00000034 UnityEngine.Rect SafeAreaManager::GetSafeArea()
+extern void SafeAreaManager_GetSafeArea_mE78AE4D0710017CCB739A905F806AD4699F5B6FB (void);
+// 0x00000035 System.Void SafeAreaManager::Start()
+extern void SafeAreaManager_Start_m0F37AC467CD52DAFE4369EB4044B5FDA0CBB7F98 (void);
+// 0x00000036 System.Void SafeAreaManager::Update()
+extern void SafeAreaManager_Update_m9AE88DDDA994174B3733AEC9B6A9659607ABBF9B (void);
+// 0x00000037 System.Void SafeAreaManager::Refresh()
+extern void SafeAreaManager_Refresh_m3AE361FD038788F384741448CAB83738BDDDFAF7 (void);
+// 0x00000038 System.Void SafeAreaManager::ApplySafeArea()
+extern void SafeAreaManager_ApplySafeArea_m2DF071BE4AEAB2A7917BF2E8D29718DCC2E35E1E (void);
+// 0x00000039 System.Void SafeAreaManager::UpdateUnsafeArea()
+extern void SafeAreaManager_UpdateUnsafeArea_mE909F5CDBB5E05FD9F2B7551A1EBA0B810E470C9 (void);
+// 0x0000003A System.Void SafeAreaManager::SetUnsafeAreaSizes(System.Single,System.Single)
+extern void SafeAreaManager_SetUnsafeAreaSizes_m6ABFCB9473E47C0F543E1B10CEDED6825ED00DA1 (void);
+// 0x0000003B System.Void SafeAreaManager::AddSafeAreaRect(UnityEngine.RectTransform,System.Boolean,System.Boolean)
+extern void SafeAreaManager_AddSafeAreaRect_mD4D114CD2F964BE0D2FFB1BB2561FD818522E2E4 (void);
+// 0x0000003C System.Void SafeAreaManager::SetAreasEnabled(System.Boolean,System.Boolean)
+extern void SafeAreaManager_SetAreasEnabled_m7AE0D081F677B56BB2FB8463BC334E464F852A8F (void);
+// 0x0000003D System.Void SafeAreaManager::SetAreaColors(UnityEngine.Color,UnityEngine.Color)
+extern void SafeAreaManager_SetAreaColors_mEB28D03C3D7C3F37F5F41A80DB915742AC4E2090 (void);
+// 0x0000003E System.Void SafeAreaManager::.ctor()
+extern void SafeAreaManager__ctor_m9F300AC59FCB314C220E6B0B6465C6B9E284EB11 (void);
+// 0x0000003F StatusMessage StatusMessage::get_Instance()
+extern void StatusMessage_get_Instance_mCCF7B70BAAE3C8F22DDCEB404A5785351AE9AFBF (void);
+// 0x00000040 System.Void StatusMessage::Init()
+extern void StatusMessage_Init_m0FDF5A6C17B6559BCC07C238B0141F13DB384D87 (void);
+// 0x00000041 System.Void StatusMessage::Display(System.String,System.Boolean)
+extern void StatusMessage_Display_mD23A35ADDFEE1755F7F5231D0A6867A21A66C625 (void);
+// 0x00000042 System.Collections.IEnumerator StatusMessage::FadeOut()
+extern void StatusMessage_FadeOut_m4A2F30C44333F0B53D1BBDBE4B7E47722C0FB2CB (void);
+// 0x00000043 System.Void StatusMessage::.ctor()
+extern void StatusMessage__ctor_mDF40834F10932EE86C3B2BD0759FDC05CDCC91D7 (void);
+// 0x00000044 System.Void HyperlinkHandler::Start()
+extern void HyperlinkHandler_Start_mE30336F521DEFA90A6D143FA7851E21BC1E577A1 (void);
+// 0x00000045 System.Void HyperlinkHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void HyperlinkHandler_OnPointerClick_mE1B74F9EB4315F31ADA9BC008A132B0B94CB3BD6 (void);
+// 0x00000046 System.Void HyperlinkHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void HyperlinkHandler_OnPointerUp_mAEAD67B5AAAC7878E3F3568FB4FD77612E99C73B (void);
+// 0x00000047 System.Void HyperlinkHandler::CheckIfLinkAndOpenURL()
+extern void HyperlinkHandler_CheckIfLinkAndOpenURL_mB6B2A9EF97179C7369549FC6172FE5DEF5940576 (void);
+// 0x00000048 System.Void HyperlinkHandler::.ctor()
+extern void HyperlinkHandler__ctor_m024E7F84A5E862FE896D58AEAF8BA29D4C94BBD5 (void);
+// 0x00000049 System.Boolean OptionsConfig::AnyOptionsEnabled()
+extern void OptionsConfig_AnyOptionsEnabled_m5DE967495495F9E27773142A98D2CBE4A276A153 (void);
+// 0x0000004A System.Void OptionsConfig::.ctor()
+extern void OptionsConfig__ctor_mAD5292F486F539481AD9EDABB54B52D17712F83B (void);
+// 0x0000004B System.Void SceneOrientation::Awake()
+extern void SceneOrientation_Awake_m18EDD3C873A6CB00B839D3D5AB2CC90620CFC714 (void);
+// 0x0000004C System.Void SceneOrientation::SetSceneOrientation()
+extern void SceneOrientation_SetSceneOrientation_mAEE9314BE09F60C951F3150E1ADCEE89202D3DA9 (void);
+// 0x0000004D System.Void SceneOrientation::.ctor()
+extern void SceneOrientation__ctor_mE8A9FE742B52D485FFC8E986645DCA6863E85B57 (void);
+// 0x0000004E System.Void TapHandler::Start()
+extern void TapHandler_Start_m716AB8F2CD69C3128D30533637326779E273360B (void);
+// 0x0000004F System.Void TapHandler::Update()
+extern void TapHandler_Update_m9D2388D3FBCB8DE532B9C1C071FB60263C312BC2 (void);
+// 0x00000050 System.Void TapHandler::HandleTap()
+extern void TapHandler_HandleTap_m9AAEC0D9DDC1A20ED5F9E1C93B3631CFC0F8F38E (void);
+// 0x00000051 System.Void TapHandler::OnSingleTap()
+extern void TapHandler_OnSingleTap_m4C166596A1F15A5DB7884050A252523C40253D50 (void);
+// 0x00000052 System.Void TapHandler::OnSingleTapConfirmed()
+extern void TapHandler_OnSingleTapConfirmed_mB617FF7F96755BE5A2E95A3B9F7F1AC31DDA19BF (void);
+// 0x00000053 System.Void TapHandler::OnDoubleTap()
+extern void TapHandler_OnDoubleTap_mE79B94505D537EFCD2C16E677EF8EB09631DB9D4 (void);
+// 0x00000054 System.Void TapHandler::.ctor()
+extern void TapHandler__ctor_mD87DE7443AAAF1DE4370E67751757D903966B7DA (void);
+// 0x00000055 System.Void VLog::Log(System.String,System.String)
+extern void VLog_Log_m87B8A240B0D88D22CB9D18E9C13119E02066A2C3 (void);
+// 0x00000056 System.Void AmbientLightManager::Start()
+extern void AmbientLightManager_Start_m90588BD593D4F961BDE73A9D8CABB8E966239344 (void);
+// 0x00000057 System.Void AmbientLightManager::Update()
+extern void AmbientLightManager_Update_mEC8D22A9025984F6D606AB0641B54D5A8720E887 (void);
+// 0x00000058 System.Void AmbientLightManager::OnDestroy()
+extern void AmbientLightManager_OnDestroy_m5882C91F334874AA86EDBD4123450B9E3ED8A36D (void);
+// 0x00000059 System.Void AmbientLightManager::OnVuforiaStarted()
+extern void AmbientLightManager_OnVuforiaStarted_mA5B57F9A29549114A32AFBEC2D5265725D3FCB0B (void);
+// 0x0000005A System.Void AmbientLightManager::.ctor()
+extern void AmbientLightManager__ctor_m1048FDA4AC8D38DDD3C5154621AEB3099B071F07 (void);
+// 0x0000005B System.Boolean CameraSettings::get_DoubleTap()
+extern void CameraSettings_get_DoubleTap_m58EF3E9E8C59BA22F328469643D87679025814D7 (void);
+// 0x0000005C System.Void CameraSettings::Start()
+extern void CameraSettings_Start_m75FFB3C0E544E6EDD232580370C651E91ECC0D1E (void);
+// 0x0000005D System.Void CameraSettings::Update()
+extern void CameraSettings_Update_m2BC99D0CCC6701263BD71720B2934F72B33E71A7 (void);
+// 0x0000005E System.Void CameraSettings::OnDestroy()
+extern void CameraSettings_OnDestroy_m0510F3C264AE3BF089DE31DB80B61A3E1D6AA859 (void);
+// 0x0000005F System.Boolean CameraSettings::IsFlashTorchEnabled()
+extern void CameraSettings_IsFlashTorchEnabled_m38393F92EC6F24F8D9E9F360B71AC105E92DD944 (void);
+// 0x00000060 System.Void CameraSettings::SwitchFlashTorch(System.Boolean)
+extern void CameraSettings_SwitchFlashTorch_m1596279854CAA3A07C17EEADADBB0DB577D9E0D0 (void);
+// 0x00000061 System.Boolean CameraSettings::IsAutofocusEnabled()
+extern void CameraSettings_IsAutofocusEnabled_m52033627FD5FBEF62259E83BFE8BA7D00F66FAA6 (void);
+// 0x00000062 System.Void CameraSettings::SwitchAutofocus(System.Boolean)
+extern void CameraSettings_SwitchAutofocus_m75E4867E8D22023E6C37D67C7AD5BEDB08356161 (void);
+// 0x00000063 System.Void CameraSettings::TriggerAutofocusEvent()
+extern void CameraSettings_TriggerAutofocusEvent_m3AFA28124E62726034A7DE3C3573D8E49EC7E486 (void);
+// 0x00000064 System.Void CameraSettings::OnVuforiaStarted()
+extern void CameraSettings_OnVuforiaStarted_m0949FBAD2FBA019592B78F203FE58A7607CE8D8A (void);
+// 0x00000065 System.Void CameraSettings::OnPaused(System.Boolean)
+extern void CameraSettings_OnPaused_m734AE75F64C76D59D6B701D246E276275B8794F9 (void);
+// 0x00000066 System.Collections.IEnumerator CameraSettings::RestoreOriginalFocusMode()
+extern void CameraSettings_RestoreOriginalFocusMode_mA7C88BA61DC7FCF3F7F3EB9C5C48B4EDBB1AAE45 (void);
+// 0x00000067 System.Void CameraSettings::.ctor()
+extern void CameraSettings__ctor_m5B8E04A74D249A8227BA24DE6AE27AE2E53451B2 (void);
+// 0x00000068 System.Void DeviceObserverSettings::Awake()
+extern void DeviceObserverSettings_Awake_mB4F13FCBF6B07993987C9326DC49721E9C2ECA54 (void);
+// 0x00000069 System.Void DeviceObserverSettings::Start()
+extern void DeviceObserverSettings_Start_m59542EA5AB47997F95552627F22CA2ACDE33DD07 (void);
+// 0x0000006A System.Void DeviceObserverSettings::OnDestroy()
+extern void DeviceObserverSettings_OnDestroy_m642B1A4406451C7FAF026D7D3882BCCE76FA238C (void);
+// 0x0000006B System.Void DeviceObserverSettings::OnDevicePoseStatusChanged(Vuforia.ObserverBehaviour,Vuforia.TargetStatus)
+extern void DeviceObserverSettings_OnDevicePoseStatusChanged_mE8F6495C315BDDFD943C1650CC73B26A6FC28DE6 (void);
+// 0x0000006C System.Void DeviceObserverSettings::RelocalizingStatusDelay(System.Object,System.Timers.ElapsedEventArgs)
+extern void DeviceObserverSettings_RelocalizingStatusDelay_m118BF676A7CA7F960DCC545BCEEFD15D1A3A22BC (void);
+// 0x0000006D System.Void DeviceObserverSettings::ResetObservation(System.Object,System.Timers.ElapsedEventArgs)
+extern void DeviceObserverSettings_ResetObservation_mC103DC348C970339C914FB43F74D14A231A7B2B7 (void);
+// 0x0000006E System.Boolean DeviceObserverSettings::IsDeviceObserverEnabled()
+extern void DeviceObserverSettings_IsDeviceObserverEnabled_m9D9CD9703F5A81DDE0233F48E847B438617E8641 (void);
+// 0x0000006F System.Void DeviceObserverSettings::ToggleDeviceObserver(System.Boolean)
+extern void DeviceObserverSettings_ToggleDeviceObserver_m02B2C25B9652CF6A1695E833BBDC11DF6FB4817E (void);
+// 0x00000070 System.Boolean DeviceObserverSettings::IsStaticDeviceTrackerEnabled()
+extern void DeviceObserverSettings_IsStaticDeviceTrackerEnabled_mC18BE97DB5EE9AF7CC3E85784ECB14956601D4DA (void);
+// 0x00000071 System.Boolean DeviceObserverSettings::ToggleStaticDeviceTracker(System.Boolean)
+extern void DeviceObserverSettings_ToggleStaticDeviceTracker_m0BAC61B422D010478702A4B8E7B6BF759145790D (void);
+// 0x00000072 System.Void DeviceObserverSettings::ResetDeviceObserver()
+extern void DeviceObserverSettings_ResetDeviceObserver_mA53A08E8861C873CA1EF0B15358CE30414CF8AA7 (void);
+// 0x00000073 System.Void DeviceObserverSettings::.ctor()
+extern void DeviceObserverSettings__ctor_m4504FCF905F6AAD504C9703378806C105B1C8BCC (void);
+// 0x00000074 System.Void FrameRateSettings::Start()
+extern void FrameRateSettings_Start_mD6A0ECF834EEA829F2547AFD53624B973A3879E0 (void);
+// 0x00000075 System.Void FrameRateSettings::OnDestroy()
+extern void FrameRateSettings_OnDestroy_m05EE0D09CC2208EBCBECF18BA3DD138CCA7F621B (void);
+// 0x00000076 System.Void FrameRateSettings::OnVuforiaStarted()
+extern void FrameRateSettings_OnVuforiaStarted_m2311898F449CC5509E91E238DF370A6042EAFECC (void);
+// 0x00000077 System.Void FrameRateSettings::.ctor()
+extern void FrameRateSettings__ctor_m921FFC978864772ED05F71C62B88B9139D683DD0 (void);
+// 0x00000078 System.Void InitErrorHandler::Awake()
+extern void InitErrorHandler_Awake_mF1ABABE5487CE2311AC2233438D0590C82004208 (void);
+// 0x00000079 System.Void InitErrorHandler::OnDestroy()
+extern void InitErrorHandler_OnDestroy_mA3379B70C0A67B54F518F1B97F30B3D1A2C60599 (void);
+// 0x0000007A System.Void InitErrorHandler::OnVuforiaInitError(Vuforia.VuforiaInitError)
+extern void InitErrorHandler_OnVuforiaInitError_m31FB3E86CB151B45B35AF505D2E1773E04E6E8FD (void);
+// 0x0000007B System.Void InitErrorHandler::ShowErrorMessage(Vuforia.VuforiaInitError)
+extern void InitErrorHandler_ShowErrorMessage_m001BF0A7D0090D5873283978937E0B6E2D0A2EA4 (void);
+// 0x0000007C System.String InitErrorHandler::GetKeyInfo()
+extern void InitErrorHandler_GetKeyInfo_m415A8E80D8E14B1A48F51D5459A2B135295EB644 (void);
+// 0x0000007D System.Void InitErrorHandler::OnErrorDialogClose()
+extern void InitErrorHandler_OnErrorDialogClose_m1C5685F69E7A1AA7CC973BD6D31EE9F1FEBB83D6 (void);
+// 0x0000007E System.Void InitErrorHandler::.ctor()
+extern void InitErrorHandler__ctor_m3CBCA12156E32450C0A8C7C2FE22B0006D58856C (void);
+// 0x0000007F System.Void LicenseKeyChecker::Awake()
+extern void LicenseKeyChecker_Awake_m412D7CCBD2F3D80A7EC1B62CC6F6F216C9C11959 (void);
+// 0x00000080 System.Void LicenseKeyChecker::.ctor()
+extern void LicenseKeyChecker__ctor_m759C32E5DD879A1EB632FE86A240F8E7F1348F9D (void);
+// 0x00000081 System.Void ModelTargetSettings::ToggleStaticDT(System.Boolean)
+extern void ModelTargetSettings_ToggleStaticDT_mE6829B558E26C5E08C94791F293916D92AAD5F30 (void);
+// 0x00000082 System.Void ModelTargetSettings::ResetModelTargets()
+extern void ModelTargetSettings_ResetModelTargets_mE26A4CB7E562EBB1CFED3ACCE059D6F6F265EF76 (void);
+// 0x00000083 System.Void ModelTargetSettings::.ctor()
+extern void ModelTargetSettings__ctor_m05DD5B9D83595264D09AC7A5B002BE2263135F94 (void);
+// 0x00000084 System.Void AsyncSceneLoader/<LoadNextSceneAfter>d__2::.ctor(System.Int32)
+extern void U3CLoadNextSceneAfterU3Ed__2__ctor_m82FD5218F406ED5A0C2939F77EC5D680935EF982 (void);
+// 0x00000085 System.Void AsyncSceneLoader/<LoadNextSceneAfter>d__2::System.IDisposable.Dispose()
+extern void U3CLoadNextSceneAfterU3Ed__2_System_IDisposable_Dispose_mAE89E35E5203359B55E7F29F5D6767310288161F (void);
+// 0x00000086 System.Boolean AsyncSceneLoader/<LoadNextSceneAfter>d__2::MoveNext()
+extern void U3CLoadNextSceneAfterU3Ed__2_MoveNext_m56F721E680AEFEB8318AE29F629B5A82AEC58124 (void);
+// 0x00000087 System.Object AsyncSceneLoader/<LoadNextSceneAfter>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadNextSceneAfterU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5B58BCCCD4A3563B23048ED1FEF6DAF20899A305 (void);
+// 0x00000088 System.Void AsyncSceneLoader/<LoadNextSceneAfter>d__2::System.Collections.IEnumerator.Reset()
+extern void U3CLoadNextSceneAfterU3Ed__2_System_Collections_IEnumerator_Reset_m8518AB853AEB8F4BB3FA33569335329CA787EBA2 (void);
+// 0x00000089 System.Object AsyncSceneLoader/<LoadNextSceneAfter>d__2::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadNextSceneAfterU3Ed__2_System_Collections_IEnumerator_get_Current_mB67D585FCC322DB3F104F99BE9FB14B989255093 (void);
+// 0x0000008A System.Void LoadingScreen/<LoadNextSceneAsync>d__10::.ctor(System.Int32)
+extern void U3CLoadNextSceneAsyncU3Ed__10__ctor_mAC46EB6BCBC098860F300C8D39B3C20E5661A281 (void);
+// 0x0000008B System.Void LoadingScreen/<LoadNextSceneAsync>d__10::System.IDisposable.Dispose()
+extern void U3CLoadNextSceneAsyncU3Ed__10_System_IDisposable_Dispose_mED8F55FD3A89BDC111A9E4FDD8462AD384B537C9 (void);
+// 0x0000008C System.Boolean LoadingScreen/<LoadNextSceneAsync>d__10::MoveNext()
+extern void U3CLoadNextSceneAsyncU3Ed__10_MoveNext_mD4B0D657683E71908145F6EDF7E773BF992ED783 (void);
+// 0x0000008D System.Object LoadingScreen/<LoadNextSceneAsync>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadNextSceneAsyncU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6745F9CAA37CB4AA276A2B13B142C69566382801 (void);
+// 0x0000008E System.Void LoadingScreen/<LoadNextSceneAsync>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CLoadNextSceneAsyncU3Ed__10_System_Collections_IEnumerator_Reset_m8E50EEB4105783EAFADDF975C964FE3480CC74FE (void);
+// 0x0000008F System.Object LoadingScreen/<LoadNextSceneAsync>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadNextSceneAsyncU3Ed__10_System_Collections_IEnumerator_get_Current_mFF6FF0CCC87FBB4F0BA7D5CEC27F48E2EE4BA29E (void);
+// 0x00000090 System.Void MessageBox/DelegateMessageBoxButtonAction::.ctor(System.Object,System.IntPtr)
+extern void DelegateMessageBoxButtonAction__ctor_m6B3AC70E3DD8767EFAFFDBC0BBA5AB4835FF4587 (void);
+// 0x00000091 System.Void MessageBox/DelegateMessageBoxButtonAction::Invoke()
+extern void DelegateMessageBoxButtonAction_Invoke_mC3A59BADEC6E38E5245D99F0B1E0B41D97FFF089 (void);
+// 0x00000092 System.IAsyncResult MessageBox/DelegateMessageBoxButtonAction::BeginInvoke(System.AsyncCallback,System.Object)
+extern void DelegateMessageBoxButtonAction_BeginInvoke_m4A1E3FE6579DB397AF3EB7C7D6E13F575F584522 (void);
+// 0x00000093 System.Void MessageBox/DelegateMessageBoxButtonAction::EndInvoke(System.IAsyncResult)
+extern void DelegateMessageBoxButtonAction_EndInvoke_m94F2BD2E01DA1FB680C6D387710B68EABCAA703A (void);
+// 0x00000094 System.Void SafeAreaManager/SafeAreaRect::.ctor()
+extern void SafeAreaRect__ctor_m5F926D9F028EC07E475E7A33640650AA50D61C68 (void);
+// 0x00000095 System.Void StatusMessage/<FadeOut>d__9::.ctor(System.Int32)
+extern void U3CFadeOutU3Ed__9__ctor_m0D028DFC3735E25D6385D72404F0B81826C903D5 (void);
+// 0x00000096 System.Void StatusMessage/<FadeOut>d__9::System.IDisposable.Dispose()
+extern void U3CFadeOutU3Ed__9_System_IDisposable_Dispose_m64B5FFE50D4CD1F4C2C98002277B0B5FE76841BA (void);
+// 0x00000097 System.Boolean StatusMessage/<FadeOut>d__9::MoveNext()
+extern void U3CFadeOutU3Ed__9_MoveNext_mDBC8B7280836F756E595BDD0DCE4001A44B72D97 (void);
+// 0x00000098 System.Object StatusMessage/<FadeOut>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CFadeOutU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF44D4224CABD91FCE383084E41B359EA37C518FF (void);
+// 0x00000099 System.Void StatusMessage/<FadeOut>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CFadeOutU3Ed__9_System_Collections_IEnumerator_Reset_m528A765D2D29E0BCBEC86D91D5DEFE9E786FED50 (void);
+// 0x0000009A System.Object StatusMessage/<FadeOut>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CFadeOutU3Ed__9_System_Collections_IEnumerator_get_Current_m0F3367162904580E533202B793DFC76C1A58CFD5 (void);
+// 0x0000009B System.Void OptionsConfig/Option::.ctor()
+extern void Option__ctor_mC024521BA1056FE8BC9377F083F5C1B0E61A42CB (void);
+// 0x0000009C System.Void CameraSettings/<RestoreOriginalFocusMode>d__16::.ctor(System.Int32)
+extern void U3CRestoreOriginalFocusModeU3Ed__16__ctor_m1427B83319F862F1D71C29F2C29754752C6EBD40 (void);
+// 0x0000009D System.Void CameraSettings/<RestoreOriginalFocusMode>d__16::System.IDisposable.Dispose()
+extern void U3CRestoreOriginalFocusModeU3Ed__16_System_IDisposable_Dispose_m1AB42D635BE4F46352DBDDC05891FF43FB563A6A (void);
+// 0x0000009E System.Boolean CameraSettings/<RestoreOriginalFocusMode>d__16::MoveNext()
+extern void U3CRestoreOriginalFocusModeU3Ed__16_MoveNext_mB01A4262ADB22601839A7224EF49E12534281CE2 (void);
+// 0x0000009F System.Object CameraSettings/<RestoreOriginalFocusMode>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE9F6FC1AB848C109EE584B2D75E7CABD72F4A867 (void);
+// 0x000000A0 System.Void CameraSettings/<RestoreOriginalFocusMode>d__16::System.Collections.IEnumerator.Reset()
+extern void U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_IEnumerator_Reset_mCC6CC882BB08B55A75B6D4D22C21234412C9FD63 (void);
+// 0x000000A1 System.Object CameraSettings/<RestoreOriginalFocusMode>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_IEnumerator_get_Current_mD02F585B1B41A7113F66EB3661EF42AA847B0F9D (void);
+// 0x000000A2 System.Void ModelTargetSettings/<>c::.cctor()
+extern void U3CU3Ec__cctor_m21B3BC472D2643F404ABEA508C962FC77AE7BDAA (void);
+// 0x000000A3 System.Void ModelTargetSettings/<>c::.ctor()
+extern void U3CU3Ec__ctor_mDBDC0B62F251F6B3A929CEE8F302899308A12673 (void);
+// 0x000000A4 System.Boolean ModelTargetSettings/<>c::<ToggleStaticDT>b__1_0(Vuforia.ScalableDataSetTrackableBehaviour)
+extern void U3CU3Ec_U3CToggleStaticDTU3Eb__1_0_m7966811C455FCA5FFAF1ADD3265A236E584526AF (void);
+static Il2CppMethodPointer s_methodPointers[164] = 
+{
+	AboutManager_LoadNextScene_m3AFEE434256A940034BB3EDC550925D6937A6B02,
+	AboutManager_Start_m0CE8345171913607CCE274649B393F0F0EDB02D9,
+	AboutManager_Update_mA8577C26157C76247D7AE4F1146C8E2D7C678118,
+	AboutManager_OnDestroy_m9A4C8829E35A7B48E41610E21D0E03743D510B5E,
+	AboutManager_OnVuforiaInitialized_m6B36448654786847D68373B251D771D5B545855D,
+	AboutManager__ctor_m89C20A7B0D6914FCD9F41C1DFB48C0E2A7755BEE,
+	AsyncSceneLoader_Start_m3A4CA33D6A06570F89C0F7DF0409C95743029225,
+	AsyncSceneLoader_LoadNextSceneAfter_m725C0EF2F618C5413B65ED47FA54C37B64D4EBD1,
+	AsyncSceneLoader__ctor_m7352D3EAE6D573C6EAD04A8C7E262EB07ECD8FEF,
+	LoadingScreen_get_SceneToLoad_m8F9EA3978A736E5B3B1107B00484E847BA4267DF,
+	LoadingScreen_set_SceneToLoad_m589E8A3C9056D5C89527BEA4743C91B760B5415C,
+	LoadingScreen_Run_mD8FCB65E51B3D338F77DF0065C87568EF824D602,
+	LoadingScreen_Start_m36197075FC3CFC340FD91DE6A5105081AF0212BE,
+	LoadingScreen_Update_m172BF0BD3CFCAB736A897D497EC320704E7793CF,
+	LoadingScreen_LoadNextSceneAsync_m8C11994153C10139BBB2EE374D0327118E9CCB64,
+	LoadingScreen__ctor_m7508E820FF2E8323381F28534F3AB69EDF0F44B0,
+	NavigationHandler_Update_mA0CA1128E2B41B7ECA7DF4A93B1F3EF54E96F52E,
+	NavigationHandler_HandleBackButtonPressed_m9AA8FEEAA7DA94F9D8ABAA739DC9B18846631F60,
+	NavigationHandler_LoadScene_m9CD595A6B4DE60AB3BD25D1049AEE6227CF775A1,
+	NavigationHandler__ctor_m7A44808CAFF041EEB019F831C0844E54768BF3C6,
+	SamplesMainMenu_get_IsAboutScreenVisible_mD149F7906BE6F0B9231120CC1B672FFD7B2598EC,
+	SamplesMainMenu_Start_mE9D7634F9299CC344FE1C2B8619AF84AE18659C2,
+	SamplesMainMenu_Update_m5BC309BDAB6E46475239025002F03D86EB9E9C27,
+	SamplesMainMenu_OnDestroy_m9F77953DFD43BE53807FE7B41AE08BC0B37E0B03,
+	SamplesMainMenu_OnVuforiaInitialized_mBA5E6E8CEC2286ECAD9741C37A401D2A65BEA98A,
+	SamplesMainMenu_OnStartAR_mFFE13DD4716D3CC73A91F4876BD27E18DC263EEB,
+	SamplesMainMenu_OnBackButton_mE9D7D14413A02948106B33B3317D5B56F5F6A3EC,
+	SamplesMainMenu_OnMenuItemSelected_mE083BD5DB958B13671F49AEB45EB5A2F8C4EAAA4,
+	SamplesMainMenu_ShowAboutScreen_m392D94CA04234832DAB3D26510BE1DD251E548C2,
+	SamplesMainMenu_QuitApp_m719F90812467DCECA411008EA18E4FF7168D4709,
+	SamplesMainMenu__ctor_mD92D235D42A72520020EBE2CA83F9B3549F7545E,
+	AboutScreenInfo__ctor_m758DF6EA272C526C8F82F5F24C8F5F3D8244A5E6,
+	AboutScreenInfo_GetTitle_m6FF65DEA0D1E218287D76BE0FE273327CF0D57D6,
+	AboutScreenInfo_GetDescription_mBAEFC525FD2761F386A7271054431954B8F614CC,
+	AboutScreenInfo_GetValueFromDictionary_m4042F17AACB626316E09308960C897235F45FA5F,
+	MenuOptions_get_IsDisplayed_mD77BFBB6AD1F26922753FD6B58E1A218A0C61D8B,
+	MenuOptions_set_IsDisplayed_m01934F23A9295FC2B3CCD1D2633EEE1E80277C72,
+	MenuOptions_Start_m7149F7E564D8E9BFC68E6DF380C748C9D75D5717,
+	MenuOptions_OnDestroy_m7472DB9C4D404E554CF5500CD72E3E37387E0147,
+	MenuOptions_OnVuforiaInitialized_m1814E7D94B1EC93A3B151F88E0B26218AFE8ACC6,
+	MenuOptions_OnVuforiaStarted_m5ABCACE8D5C40711C3BF5625D036E7089D279E49,
+	MenuOptions_UpdateUI_m24EE8C424D95DFA6CDB1DF06C7B88F94F835CA7F,
+	MenuOptions_ShowOptionsMenu_m20224D1F3FF4A631961DB330404838AD619E1FA8,
+	MenuOptions__ctor_m9ADE5DE99BE0435503D87121CCB5BCF40FD8EF27,
+	MessageBox_DisplayMessageBox_m87B74259E7B6926940E40A0FB9DFEE21339B0889,
+	MessageBox_MessageBoxButton_m5000E915B8D1A1E212257F3EB1733CDFDDF4917A,
+	MessageBox_Setup_m0CE5AB2D3664E091DF617C7A0691B664CE3E4A16,
+	MessageBox__ctor_m6A82B5AFD9C98F224D805A02C0D452AD04349EC7,
+	SafeAreaManager_get_ColorsChanged_mC3CD1F467E7CD7630E29EBB0EA70407A3FAEE2CC,
+	SafeAreaManager_Awake_mF983FDBD4792813948017AE34AEC0FAA21A71B43,
+	SafeAreaManager_SetAreaRectTransforms_m7F119B689A018824C92E5AE3D88D9208D387BA08,
+	SafeAreaManager_GetSafeArea_mE78AE4D0710017CCB739A905F806AD4699F5B6FB,
+	SafeAreaManager_Start_m0F37AC467CD52DAFE4369EB4044B5FDA0CBB7F98,
+	SafeAreaManager_Update_m9AE88DDDA994174B3733AEC9B6A9659607ABBF9B,
+	SafeAreaManager_Refresh_m3AE361FD038788F384741448CAB83738BDDDFAF7,
+	SafeAreaManager_ApplySafeArea_m2DF071BE4AEAB2A7917BF2E8D29718DCC2E35E1E,
+	SafeAreaManager_UpdateUnsafeArea_mE909F5CDBB5E05FD9F2B7551A1EBA0B810E470C9,
+	SafeAreaManager_SetUnsafeAreaSizes_m6ABFCB9473E47C0F543E1B10CEDED6825ED00DA1,
+	SafeAreaManager_AddSafeAreaRect_mD4D114CD2F964BE0D2FFB1BB2561FD818522E2E4,
+	SafeAreaManager_SetAreasEnabled_m7AE0D081F677B56BB2FB8463BC334E464F852A8F,
+	SafeAreaManager_SetAreaColors_mEB28D03C3D7C3F37F5F41A80DB915742AC4E2090,
+	SafeAreaManager__ctor_m9F300AC59FCB314C220E6B0B6465C6B9E284EB11,
+	StatusMessage_get_Instance_mCCF7B70BAAE3C8F22DDCEB404A5785351AE9AFBF,
+	StatusMessage_Init_m0FDF5A6C17B6559BCC07C238B0141F13DB384D87,
+	StatusMessage_Display_mD23A35ADDFEE1755F7F5231D0A6867A21A66C625,
+	StatusMessage_FadeOut_m4A2F30C44333F0B53D1BBDBE4B7E47722C0FB2CB,
+	StatusMessage__ctor_mDF40834F10932EE86C3B2BD0759FDC05CDCC91D7,
+	HyperlinkHandler_Start_mE30336F521DEFA90A6D143FA7851E21BC1E577A1,
+	HyperlinkHandler_OnPointerClick_mE1B74F9EB4315F31ADA9BC008A132B0B94CB3BD6,
+	HyperlinkHandler_OnPointerUp_mAEAD67B5AAAC7878E3F3568FB4FD77612E99C73B,
+	HyperlinkHandler_CheckIfLinkAndOpenURL_mB6B2A9EF97179C7369549FC6172FE5DEF5940576,
+	HyperlinkHandler__ctor_m024E7F84A5E862FE896D58AEAF8BA29D4C94BBD5,
+	OptionsConfig_AnyOptionsEnabled_m5DE967495495F9E27773142A98D2CBE4A276A153,
+	OptionsConfig__ctor_mAD5292F486F539481AD9EDABB54B52D17712F83B,
+	SceneOrientation_Awake_m18EDD3C873A6CB00B839D3D5AB2CC90620CFC714,
+	SceneOrientation_SetSceneOrientation_mAEE9314BE09F60C951F3150E1ADCEE89202D3DA9,
+	SceneOrientation__ctor_mE8A9FE742B52D485FFC8E986645DCA6863E85B57,
+	TapHandler_Start_m716AB8F2CD69C3128D30533637326779E273360B,
+	TapHandler_Update_m9D2388D3FBCB8DE532B9C1C071FB60263C312BC2,
+	TapHandler_HandleTap_m9AAEC0D9DDC1A20ED5F9E1C93B3631CFC0F8F38E,
+	TapHandler_OnSingleTap_m4C166596A1F15A5DB7884050A252523C40253D50,
+	TapHandler_OnSingleTapConfirmed_mB617FF7F96755BE5A2E95A3B9F7F1AC31DDA19BF,
+	TapHandler_OnDoubleTap_mE79B94505D537EFCD2C16E677EF8EB09631DB9D4,
+	TapHandler__ctor_mD87DE7443AAAF1DE4370E67751757D903966B7DA,
+	VLog_Log_m87B8A240B0D88D22CB9D18E9C13119E02066A2C3,
+	AmbientLightManager_Start_m90588BD593D4F961BDE73A9D8CABB8E966239344,
+	AmbientLightManager_Update_mEC8D22A9025984F6D606AB0641B54D5A8720E887,
+	AmbientLightManager_OnDestroy_m5882C91F334874AA86EDBD4123450B9E3ED8A36D,
+	AmbientLightManager_OnVuforiaStarted_mA5B57F9A29549114A32AFBEC2D5265725D3FCB0B,
+	AmbientLightManager__ctor_m1048FDA4AC8D38DDD3C5154621AEB3099B071F07,
+	CameraSettings_get_DoubleTap_m58EF3E9E8C59BA22F328469643D87679025814D7,
+	CameraSettings_Start_m75FFB3C0E544E6EDD232580370C651E91ECC0D1E,
+	CameraSettings_Update_m2BC99D0CCC6701263BD71720B2934F72B33E71A7,
+	CameraSettings_OnDestroy_m0510F3C264AE3BF089DE31DB80B61A3E1D6AA859,
+	CameraSettings_IsFlashTorchEnabled_m38393F92EC6F24F8D9E9F360B71AC105E92DD944,
+	CameraSettings_SwitchFlashTorch_m1596279854CAA3A07C17EEADADBB0DB577D9E0D0,
+	CameraSettings_IsAutofocusEnabled_m52033627FD5FBEF62259E83BFE8BA7D00F66FAA6,
+	CameraSettings_SwitchAutofocus_m75E4867E8D22023E6C37D67C7AD5BEDB08356161,
+	CameraSettings_TriggerAutofocusEvent_m3AFA28124E62726034A7DE3C3573D8E49EC7E486,
+	CameraSettings_OnVuforiaStarted_m0949FBAD2FBA019592B78F203FE58A7607CE8D8A,
+	CameraSettings_OnPaused_m734AE75F64C76D59D6B701D246E276275B8794F9,
+	CameraSettings_RestoreOriginalFocusMode_mA7C88BA61DC7FCF3F7F3EB9C5C48B4EDBB1AAE45,
+	CameraSettings__ctor_m5B8E04A74D249A8227BA24DE6AE27AE2E53451B2,
+	DeviceObserverSettings_Awake_mB4F13FCBF6B07993987C9326DC49721E9C2ECA54,
+	DeviceObserverSettings_Start_m59542EA5AB47997F95552627F22CA2ACDE33DD07,
+	DeviceObserverSettings_OnDestroy_m642B1A4406451C7FAF026D7D3882BCCE76FA238C,
+	DeviceObserverSettings_OnDevicePoseStatusChanged_mE8F6495C315BDDFD943C1650CC73B26A6FC28DE6,
+	DeviceObserverSettings_RelocalizingStatusDelay_m118BF676A7CA7F960DCC545BCEEFD15D1A3A22BC,
+	DeviceObserverSettings_ResetObservation_mC103DC348C970339C914FB43F74D14A231A7B2B7,
+	DeviceObserverSettings_IsDeviceObserverEnabled_m9D9CD9703F5A81DDE0233F48E847B438617E8641,
+	DeviceObserverSettings_ToggleDeviceObserver_m02B2C25B9652CF6A1695E833BBDC11DF6FB4817E,
+	DeviceObserverSettings_IsStaticDeviceTrackerEnabled_mC18BE97DB5EE9AF7CC3E85784ECB14956601D4DA,
+	DeviceObserverSettings_ToggleStaticDeviceTracker_m0BAC61B422D010478702A4B8E7B6BF759145790D,
+	DeviceObserverSettings_ResetDeviceObserver_mA53A08E8861C873CA1EF0B15358CE30414CF8AA7,
+	DeviceObserverSettings__ctor_m4504FCF905F6AAD504C9703378806C105B1C8BCC,
+	FrameRateSettings_Start_mD6A0ECF834EEA829F2547AFD53624B973A3879E0,
+	FrameRateSettings_OnDestroy_m05EE0D09CC2208EBCBECF18BA3DD138CCA7F621B,
+	FrameRateSettings_OnVuforiaStarted_m2311898F449CC5509E91E238DF370A6042EAFECC,
+	FrameRateSettings__ctor_m921FFC978864772ED05F71C62B88B9139D683DD0,
+	InitErrorHandler_Awake_mF1ABABE5487CE2311AC2233438D0590C82004208,
+	InitErrorHandler_OnDestroy_mA3379B70C0A67B54F518F1B97F30B3D1A2C60599,
+	InitErrorHandler_OnVuforiaInitError_m31FB3E86CB151B45B35AF505D2E1773E04E6E8FD,
+	InitErrorHandler_ShowErrorMessage_m001BF0A7D0090D5873283978937E0B6E2D0A2EA4,
+	InitErrorHandler_GetKeyInfo_m415A8E80D8E14B1A48F51D5459A2B135295EB644,
+	InitErrorHandler_OnErrorDialogClose_m1C5685F69E7A1AA7CC973BD6D31EE9F1FEBB83D6,
+	InitErrorHandler__ctor_m3CBCA12156E32450C0A8C7C2FE22B0006D58856C,
+	LicenseKeyChecker_Awake_m412D7CCBD2F3D80A7EC1B62CC6F6F216C9C11959,
+	LicenseKeyChecker__ctor_m759C32E5DD879A1EB632FE86A240F8E7F1348F9D,
+	ModelTargetSettings_ToggleStaticDT_mE6829B558E26C5E08C94791F293916D92AAD5F30,
+	ModelTargetSettings_ResetModelTargets_mE26A4CB7E562EBB1CFED3ACCE059D6F6F265EF76,
+	ModelTargetSettings__ctor_m05DD5B9D83595264D09AC7A5B002BE2263135F94,
+	U3CLoadNextSceneAfterU3Ed__2__ctor_m82FD5218F406ED5A0C2939F77EC5D680935EF982,
+	U3CLoadNextSceneAfterU3Ed__2_System_IDisposable_Dispose_mAE89E35E5203359B55E7F29F5D6767310288161F,
+	U3CLoadNextSceneAfterU3Ed__2_MoveNext_m56F721E680AEFEB8318AE29F629B5A82AEC58124,
+	U3CLoadNextSceneAfterU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5B58BCCCD4A3563B23048ED1FEF6DAF20899A305,
+	U3CLoadNextSceneAfterU3Ed__2_System_Collections_IEnumerator_Reset_m8518AB853AEB8F4BB3FA33569335329CA787EBA2,
+	U3CLoadNextSceneAfterU3Ed__2_System_Collections_IEnumerator_get_Current_mB67D585FCC322DB3F104F99BE9FB14B989255093,
+	U3CLoadNextSceneAsyncU3Ed__10__ctor_mAC46EB6BCBC098860F300C8D39B3C20E5661A281,
+	U3CLoadNextSceneAsyncU3Ed__10_System_IDisposable_Dispose_mED8F55FD3A89BDC111A9E4FDD8462AD384B537C9,
+	U3CLoadNextSceneAsyncU3Ed__10_MoveNext_mD4B0D657683E71908145F6EDF7E773BF992ED783,
+	U3CLoadNextSceneAsyncU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6745F9CAA37CB4AA276A2B13B142C69566382801,
+	U3CLoadNextSceneAsyncU3Ed__10_System_Collections_IEnumerator_Reset_m8E50EEB4105783EAFADDF975C964FE3480CC74FE,
+	U3CLoadNextSceneAsyncU3Ed__10_System_Collections_IEnumerator_get_Current_mFF6FF0CCC87FBB4F0BA7D5CEC27F48E2EE4BA29E,
+	DelegateMessageBoxButtonAction__ctor_m6B3AC70E3DD8767EFAFFDBC0BBA5AB4835FF4587,
+	DelegateMessageBoxButtonAction_Invoke_mC3A59BADEC6E38E5245D99F0B1E0B41D97FFF089,
+	DelegateMessageBoxButtonAction_BeginInvoke_m4A1E3FE6579DB397AF3EB7C7D6E13F575F584522,
+	DelegateMessageBoxButtonAction_EndInvoke_m94F2BD2E01DA1FB680C6D387710B68EABCAA703A,
+	SafeAreaRect__ctor_m5F926D9F028EC07E475E7A33640650AA50D61C68,
+	U3CFadeOutU3Ed__9__ctor_m0D028DFC3735E25D6385D72404F0B81826C903D5,
+	U3CFadeOutU3Ed__9_System_IDisposable_Dispose_m64B5FFE50D4CD1F4C2C98002277B0B5FE76841BA,
+	U3CFadeOutU3Ed__9_MoveNext_mDBC8B7280836F756E595BDD0DCE4001A44B72D97,
+	U3CFadeOutU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF44D4224CABD91FCE383084E41B359EA37C518FF,
+	U3CFadeOutU3Ed__9_System_Collections_IEnumerator_Reset_m528A765D2D29E0BCBEC86D91D5DEFE9E786FED50,
+	U3CFadeOutU3Ed__9_System_Collections_IEnumerator_get_Current_m0F3367162904580E533202B793DFC76C1A58CFD5,
+	Option__ctor_mC024521BA1056FE8BC9377F083F5C1B0E61A42CB,
+	U3CRestoreOriginalFocusModeU3Ed__16__ctor_m1427B83319F862F1D71C29F2C29754752C6EBD40,
+	U3CRestoreOriginalFocusModeU3Ed__16_System_IDisposable_Dispose_m1AB42D635BE4F46352DBDDC05891FF43FB563A6A,
+	U3CRestoreOriginalFocusModeU3Ed__16_MoveNext_mB01A4262ADB22601839A7224EF49E12534281CE2,
+	U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE9F6FC1AB848C109EE584B2D75E7CABD72F4A867,
+	U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_IEnumerator_Reset_mCC6CC882BB08B55A75B6D4D22C21234412C9FD63,
+	U3CRestoreOriginalFocusModeU3Ed__16_System_Collections_IEnumerator_get_Current_mD02F585B1B41A7113F66EB3661EF42AA847B0F9D,
+	U3CU3Ec__cctor_m21B3BC472D2643F404ABEA508C962FC77AE7BDAA,
+	U3CU3Ec__ctor_mDBDC0B62F251F6B3A929CEE8F302899308A12673,
+	U3CU3Ec_U3CToggleStaticDTU3Eb__1_0_m7966811C455FCA5FFAF1ADD3265A236E584526AF,
+};
+static const int32_t s_InvokerIndices[164] = 
+{
+	2940,
+	2940,
+	2940,
+	2940,
+	2344,
+	2940,
+	2940,
+	1833,
+	2940,
+	4445,
+	4372,
+	4463,
+	2940,
+	2940,
+	2881,
+	2940,
+	2940,
+	2940,
+	2358,
+	2940,
+	2909,
+	2940,
+	2940,
+	2940,
+	2344,
+	2940,
+	2940,
+	2358,
+	2383,
+	2940,
+	2940,
+	2940,
+	1829,
+	1829,
+	3889,
+	2909,
+	2383,
+	2940,
+	2940,
+	2344,
+	2940,
+	2940,
+	2383,
+	2940,
+	3492,
+	2940,
+	564,
+	2940,
+	2909,
+	2940,
+	2940,
+	2897,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	1379,
+	868,
+	1373,
+	1135,
+	2940,
+	4445,
+	2940,
+	1355,
+	2881,
+	2940,
+	2940,
+	2358,
+	2358,
+	2940,
+	2940,
+	2909,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	4051,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	4453,
+	2940,
+	2940,
+	2940,
+	2909,
+	2383,
+	2909,
+	2383,
+	2940,
+	2940,
+	2383,
+	2881,
+	2940,
+	2940,
+	2940,
+	2940,
+	1358,
+	1353,
+	1353,
+	2909,
+	2383,
+	2909,
+	2082,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2940,
+	2344,
+	2344,
+	2881,
+	2940,
+	2940,
+	2940,
+	2940,
+	2383,
+	2940,
+	2940,
+	2344,
+	2940,
+	2909,
+	2881,
+	2940,
+	2881,
+	2344,
+	2940,
+	2909,
+	2881,
+	2940,
+	2881,
+	1352,
+	2940,
+	995,
+	2358,
+	2940,
+	2344,
+	2940,
+	2909,
+	2881,
+	2940,
+	2881,
+	2940,
+	2344,
+	2940,
+	2909,
+	2881,
+	2940,
+	2881,
+	4463,
+	2940,
+	2059,
+};
+extern const CustomAttributesCacheGenerator g_CommonScripts_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_CommonScripts_CodeGenModule;
+const Il2CppCodeGenModule g_CommonScripts_CodeGenModule = 
+{
+	"CommonScripts.dll",
+	164,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_CommonScripts_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
